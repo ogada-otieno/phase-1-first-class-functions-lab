@@ -41,6 +41,6 @@ const fareTripler = createFareMultiplier(3)
 // ...or returnLastTwoDrivers() function. 
 // Based on these two arguments, selectDifferentDrivers() will return either the first two drivers or the last two drivers.
 
-function selectDifferentDrivers(drivers, returnFirstTwoDrivers) {
-    return returnFirstTwoDrivers()
+function selectDifferentDrivers(drivers, selectingDrivers) {
+    return selectingDrivers(drivers)
 }
